@@ -367,7 +367,7 @@ body {
   transition: margin-left;
 }
 
-.about-us-btn .btn-arrow {
+.about-us-btn:hover .btn-arrow {
   margin-left: 1.5rem;
 }
 
@@ -395,6 +395,61 @@ body {
 }
 
 .image-3 {
+  transform: translate(-5%, -50%);
+}
+
+.image-4 {
   transform: translate(-30%, -30%);
 }
 /* end of about us */
+
+/* common header */
+.common-header {
+  padding: 5rem;
+  text-align: center;
+  color: #b85d1c;
+}
+
+.common-heading {
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: 2rem;
+}
+
+.small-underline {
+  width: 9rem;
+  height: .1rem;
+  margin: 0 auto 1rem auto;
+  background-color: #b85d1c;
+}
+
+.big-underline {
+  width: 20rem;
+  height: .1rem;
+  margin: auto;
+  background-color: #b85d1c;
+}
+/*end of common header */
+
+/* rooms */
+.rooms {
+  margin-left: 8rem;
+}
+
+
+.rooms-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.room-card {
+  width: 60rem;
+  margin: 5rem;
+  background-color: #15141b;
+}
+
+.room-img {
+  width: 100%;
+}
+/* end of rooms */
